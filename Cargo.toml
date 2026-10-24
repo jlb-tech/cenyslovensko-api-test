@@ -1,0 +1,9 @@
+[package]
+name = "cenyslovensko-api-test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cenyslovensko_product_api = "=0.1.0"
+cenyslovensko_web_client = "=0.1.17"
+tokio = { version = "1.53.1", features = ["macros", "rt-multi-thread"] }
